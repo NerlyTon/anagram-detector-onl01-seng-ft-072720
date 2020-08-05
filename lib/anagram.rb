@@ -5,5 +5,5 @@ class Anagram
     @word = word 
   end
   
-  def anagram_detector(array)
-    array
+  def match(array)
+    array.select do |
